@@ -13,7 +13,7 @@ public class TesteLeitura2 {
 
 	public static void main(String[] args) throws Exception {
 		
-		Scanner scanner = new Scanner(new File("cotnas.csv"));
+		Scanner scanner = new Scanner(new File("contas.csv"));
 		//falta adicionar o arquivo a fonte do projeto
 		
 		while(scanner.hasNextLine()) {
